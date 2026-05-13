@@ -5,20 +5,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pure Water – Premium Bottled Water</title>
+    <title>PURE – Peak Performance Hydration</title>
     <meta name="description"
-        content="Experience the purity of premium bottled water. Clean, refreshing, and sustainably sourced.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+        content="Experience the pinnacle of hydration. PURE delivers premium, glacier-sourced water with essential minerals for the elite human experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!-- Header -->
     <header class="site-header">
-        <div class="container header-inner">
-            <div class="logo">Pure Water</div>
+        <div class="header-inner">
+            <div class="logo">PURE</div>
             <nav class="nav">
                 <ul>
                     <li><a href="#hero">Home</a></li>
@@ -30,78 +32,146 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section animate-on-load">
-        <div class="container hero-inner">
+    <section id="hero" class="hero-section">
+        <img src="assets/landscape.jpg" alt="Abstract Arctic Landscape" class="hero-bg">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-inner">
             <div class="hero-text">
-                <h1 class="hero-title">Refresh Your Life</h1>
-                <p class="hero-subtitle typing-text">Pure, crystal‑clear hydration for every moment.</p>
-                <p class="hero-tagline">Stay hydrated, stay healthy.</p>
-                <a href="#contact" class="cta-button">Get Yours Now</a>
+                <h1 class="hero-title">Hydro<br>Performance.</h1>
+                <p class="hero-subtitle">Engineered for the high-endurance human. Sourced from deep-glacier sources,
+                    ultra-purified, and infused with precision-balanced volcanic minerals.</p>
+                <a href="#contact" class="cta-button">Reserve Your Supply</a>
             </div>
+
             <div class="hero-image">
-                <img src="assets/water-bottle.png" alt="Water Bottle" class="bottle" />
+                <img src="assets/water-bottle.png" alt="PURE Fluid Vessel" class="bottle" />
+            </div>
+        </div>
+
+        <div class="typing-container">
+            <span class="typing-text">ARCTIC FILTRATION • MINERAL PRECISION • SUSTAINABLE ORIGIN • </span>
+        </div>
+    </section>
+
+    <section id="about" class="reveal">
+        <h2>About PURE</h2>
+        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <p>Our story begins 10 years ago in the frozen heart of the Arctic. We don't just bottle water; we extract
+                time and purity. Every drop is a testament to the natural filtration through layers of volcanic basalt,
+                resulting in an exceptionally smooth texture and a pH-balanced mineral profile optimized for rapid
+                cellular absorption. We serve those who refuse to compromise on the fuel they provide their bodies.</p>
+            <p style="margin-top: 20px;">By choosing PURE, you are joining a global movement of high-performance
+                individuals who value sustainability as much as peak physical capability. Our vessels are crafted from
+                infinitely recyclable aerospace-grade materials, ensuring that the purity we extract today remains for
+                the generations of tomorrow.</p>
+        </div>
+    </section>
+
+    <section id="services" class="reveal">
+        <h2>Premium Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-microchip fa-2x" style="color: var(--primary); margin-bottom: 20px;"></i>
+                <h3>Molecular Control</h3>
+                <p>We utilize advanced reverse-osmosis technology integrated with proprietary mineralization loops to
+                    verify every micro-gram of calcium, magnesium, and potassium in your supply.</p>
+                <a href="#" class="service-btn">Technical details →</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-truck-fast fa-2x" style="color: var(--primary); margin-bottom: 20px;"></i>
+                <h3>Global Concierge</h3>
+                <p>Enjoy priority white-glove delivery across all major metropolitan hubs. Our smart-inventory sensors
+                    detect when your supply is low and trigger an automatic restock via carbon-neutral transit.</p>
+                <a href="#" class="service-btn">Explore coverage →</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-infinity fa-2x" style="color: var(--primary); margin-bottom: 20px;"></i>
+                <h3>Circular Loop</h3>
+                <p>Join our zero-waste ecosystem. We collect every empty vessel and process them through our high-heat
+                    circularity plant, ensuring 100% material recovery and zero environmental impact.</p>
+                <a href="#" class="service-btn">Circularity report →</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section animate-on-load">
-        <div class="container">
-            <h2>About Pure Water</h2>
-            <p>Pure Water is sourced from pristine mountain springs, filtered through natural minerals to retain
-                essential electrolytes while delivering a crisp, clean taste.</p>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services-section animate-on-load">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Premium Bottles</h3>
-                    <p>Eco‑friendly, recyclable packaging that preserves freshness.</p>
-                    <a href="#" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <h3>Bulk Orders</h3>
-                    <p>Special pricing for offices, events, and retailers.</p>
-                    <a href="#" class="service-btn">Learn More</a>
-                </div>
-                <div class="service-card">
-                    <h3>Subscription</h3>
-                    <p>Monthly deliveries straight to your door.</p>
-                    <a href="#" class="service-btn">Learn More</a>
-                </div>
+    <section id="innovation" class="reveal">
+        <h2>Design Innovation</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-shield-halved"></i>
+                <h3>Bio-Shield Technology</h3>
+                <p>Our bottle interiors are treated with a non-toxic graphene-layer to ensure zero plastic-leaching and
+                    maintains the pristine water quality for years.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-snowflake"></i>
+                <h3>Cryo-Maintenance</h3>
+                <p>Engineered thermal dynamics ensure your PURE water remains at its optimal refreshing temperature,
+                    even in extreme environmental conditions.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-dna"></i>
+                <h3>Genetic Synergy</h3>
+                <p>We analyze your biometric hydration data to suggest the specific mineral profile that optimizes your
+                    muscle recovery and neuro-cognitive focus.</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section animate-on-load">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form class="contact-form" action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="submit-btn">Send Message</button>
+    <section id="testimonials" class="reveal">
+        <h2>Voices of PURE</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop"
+                    alt="James Carter" class="testimonial-img">
+                <p>"The impact on my recovery speed is undeniable. PURE isn't just water; it's a vital part of my
+                    performance stack. I feel sharper throughout my entire workday."</p>
+                <h4 style="margin-top: 15px; color: #fff;">James Carter</h4>
+                <span style="font-size: 0.85rem; color: var(--primary);">Ironman Triathlete</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&h=200&auto=format&fit=crop"
+                    alt="Elena Rodriguez" class="testimonial-img">
+                <p>"As an environmental engineer, I appreciate the absolute commitment to a zero-waste loop. The water
+                    quality is the best I've ever tested in a laboratory setting."</p>
+                <h4 style="margin-top: 15px; color: #fff;">Elena Rodriguez</h4>
+                <span style="font-size: 0.85rem; color: var(--primary);">Sustainability Officer</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=200&h=200&auto=format&fit=crop"
+                    alt="David Zhang" class="testimonial-img">
+                <p>"The delivery speed and intelligent inventory management changed everything for my office. We never
+                    have to think about hydration—it just happens beautifully."</p>
+                <h4 style="margin-top: 15px; color: #fff;">David Zhang</h4>
+                <span style="font-size: 0.85rem; color: var(--primary);">Startup CEO</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <h2>Connect With PURE</h2>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <div class="form-group"><input type="text" placeholder="Name" required /></div>
+                <div class="form-group"><input type="email" placeholder="Email Address" required /></div>
+                <div class="form-group"><textarea rows="4" placeholder="How can we help your journey?"
+                        required></textarea></div>
+                <button type="submit" class="submit-btn">Initialize Connection</button>
             </form>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="site-footer">
-        <div class="container footer-inner">
-            <p>&copy; 2026 Pure Water. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            </div>
+        <div class="logo" style="margin-bottom: 10px; font-size: 1.2rem;">PURE</div>
+        <p style="font-size: 0.9rem;">&copy; 2026 PURE TECHNOLOGIES. LONDON • NEW YORK • TOKYO</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
         </div>
     </footer>
+
 </body>
 
 </html>
